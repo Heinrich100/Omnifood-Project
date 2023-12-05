@@ -25,6 +25,7 @@ paragraph default: 1.6
 --02 COLORS
 
 - Primary: #e67e22
+HEAD
 - Tints: 
 #fdf2e9
 #fae5d3
@@ -33,6 +34,13 @@ paragraph default: 1.6
 - Shades: 
 #cf711f
 #45260a
+=======
+- Tints:
+#fdf2e9
+#fae5d3
+
+- Shadow: #cf711f
+
 - Accents:
 - Greys: 
 
