@@ -16,6 +16,7 @@ Bold: 700
 Default: 1
 small: 1.05
 medium: 1.2
+large: 1.8
 paragraph default: 1.6
 
 -- Letter spacing
@@ -250,6 +251,7 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {
