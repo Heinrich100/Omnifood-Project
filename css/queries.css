@@ -226,7 +226,7 @@
   .grid--2-cols,
   .grid--3-cols,
   .grid--4-cols {
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: 1fr;
   }
 
   .btn,
@@ -240,7 +240,7 @@
   }
 
   .hero {
-    padding: 0 3.2remrem;
+    padding: 0 3.2rem;
   }
 
   .hero-img {
@@ -286,16 +286,14 @@
   }
 }
 
-/* FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */
+/* BELOW 360PX SMALLER PHONES */
+@media (max-width: 23em) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+}
 
-/* SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
- */
-
-/****************************/
-/*fixing Safari flexbox gap
-/****************************/
+/* FONT SIZE SYSTEM (px) 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 */ /* SPACING SYSTEM (px) 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */ /****************************/ /*fixing Safari flexbox gap /****************************/
 
 .no-flexbox-gap .main-nav-list li:not(:last-child) {
   margin-right: 4.8rem;
